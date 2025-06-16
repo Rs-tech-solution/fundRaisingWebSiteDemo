@@ -1,0 +1,60 @@
+.sliderContainer {
+  position: relative;
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-x: overlay;
+  transition: all 0.3s;
+}
+
+.slider::-webkit-scrollbar {
+  height: 3px;
+  cursor: grab;
+}
+
+.slider.mobView::-webkit-scrollbar {
+  height: 0;
+}
+
+.slider::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 2px;
+}
+
+.slider:hover::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.slide {
+  flex-shrink: 0;
+}
+
+.dotWrapper {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+}
+
+.dot {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #959595;
+  border-radius: 50px;
+  padding: 3px;
+}
+
+.dot.active {
+  background-color: #df3535;
+  width: 32px;
+}

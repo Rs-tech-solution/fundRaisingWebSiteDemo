@@ -1,0 +1,61 @@
+.review_card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.2rem 1.5rem;
+  max-width: 386px;
+  max-height: 382px;
+  overflow: hidden;
+  margin: auto;
+  cursor: pointer;
+
+  .stars {
+    padding: 0.5rem 0px;
+    margin-bottom: 0.5rem;
+    color: #f5c518;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(214, 217, 221, 1);
+    span {
+      font-family: "Poppins", sans-serif;
+      margin-right: 0.5rem;
+      font-weight: 600;
+      font-size: 1.2rem;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: rgba(14, 14, 16, 1);
+    }
+  }
+
+  .review_text {
+    padding: 0.3rem 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(14, 14, 16, 1);
+  }
+
+  .user_info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .user_name {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: rgba(14, 14, 16, 1);
+    }
+  }
+}

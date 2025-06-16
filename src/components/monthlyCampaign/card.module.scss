@@ -1,0 +1,68 @@
+.card {
+  // max-width: 1024px;
+  // width: 100%;
+  // display: flex;
+  // justify-content: center;
+  // border-radius: 1rem;
+  overflow: hidden;
+  // border: 0.5px solid rgba(149, 198, 161, 1);
+  // padding: 2px;
+  // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  // max-width: 560px;
+  // width: 50%;
+  object-fit: cover;
+  // border-radius: 0.7rem;
+}
+
+.info {
+  // width: 50%;
+  // padding: 1.5rem;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
+  overflow: hidden;
+}
+
+.donationCount {
+  max-width: 130px;
+  max-height: 34px;
+  padding: 6px 8px;
+  color: rgba(169, 42, 4, 1);
+  border: none;
+  border-radius: 1px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.title {
+  // font-family: "Poppins", sans-serif;
+  // font-weight: 700;
+  // font-size: 2.1rem;
+  // line-height: 100%;
+  // letter-spacing: 0%;
+  // color: rgba(14, 14, 16, 1);
+  // margin: 0.8rem auto;
+  // width: 100%;
+  overflow: hidden;
+}
+
+.donateBtn {
+  outline: none;
+  // width: 100%;
+  // background: rgba(169, 42, 4, 1);
+  // border-radius: 2rem;
+  // border: none;
+  // padding: 0.7rem;
+  // font-family: "Poppins", sans-serif;
+  // font-weight: 400;
+  // font-size: 1.4rem;
+  // line-height: 100%;
+  // letter-spacing: 0%;
+  // color: rgba(255, 255, 255, 1);
+}

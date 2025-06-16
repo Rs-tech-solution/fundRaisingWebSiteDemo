@@ -1,0 +1,93 @@
+.heroWrap {
+	background-image: url("/ngo.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	margin-bottom: 50px;
+
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	.container {
+		position: relative;
+		z-index: 1;
+		padding: 100px 15px;
+	}
+
+	.breadcrumbs {
+		color: #fff;
+	}
+
+	.bread {
+		color: #fff;
+	}
+}
+
+.ftcoSection {
+	padding: 7em 0;
+}
+
+.contactInfo {
+	.colMd3 {
+		p {
+			color: #000;
+			span {
+				color: #666;
+			}
+		}
+	}
+}
+
+.block9 {
+	.colMd6 {
+		.formGroup {
+			margin-bottom: 30px;
+		}
+
+		.formControl {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+		}
+
+		.textarea {
+			resize: none;
+		}
+
+		.btn {
+			cursor: pointer;
+			color: #fff;
+			background-color: #007bff;
+			border: none;
+			border-radius: 5px;
+			padding: 12px 20px;
+			transition: background-color 0.3s ease;
+		}
+
+		.btnPrimary {
+			background-color: #007bff;
+		}
+
+		.btnPrimary:hover {
+			background-color: #0056b3;
+		}
+
+		.py3 {
+			padding-top: 12px;
+			padding-bottom: 12px;
+		}
+
+		.px5 {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+}

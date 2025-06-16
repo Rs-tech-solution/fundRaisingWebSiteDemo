@@ -1,0 +1,71 @@
+.wrapper {
+  max-width: 1100px;
+  margin: 2rem auto;
+  width: 100%;
+  background-color: rgba(131, 32, 3, 1);
+  padding: 1.2rem 1.2rem;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 2rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.8rem;
+}
+
+.achievement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+
+  h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+}
+
+.achievebg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.2rem;
+  background-image: url("/slidesImages/achievmentbg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 120px;
+  height: 151px;
+
+  img {
+    max-height: 80px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+}

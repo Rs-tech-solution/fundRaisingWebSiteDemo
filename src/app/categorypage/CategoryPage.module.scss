@@ -1,0 +1,170 @@
+.container {
+  max-width: 1250px;
+  margin: 1rem auto;
+}
+
+.heading {
+  max-width: 460px;
+  overflow: hidden;
+  margin: 2px auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.3rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.text {
+  max-width: 600px;
+  overflow: hidden;
+  margin: 1rem auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.btnContainer {
+  padding: 0rem 0rem;
+  max-width: 380px;
+  margin: 2rem auto;
+  border-radius: 2rem;
+  overflow: hidden;
+  background-color: rgba(241, 244, 250, 1);
+}
+
+.btn {
+  width: 45%;
+  overflow: hidden;
+  padding: 0.7rem;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.activeBtn {
+  width: 55%;
+  background-color: rgba(253, 205, 79, 1);
+  font-weight: 700;
+  border-radius: 2rem;
+}
+
+.filterContainer {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 5px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.filterContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.filterContainer {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.filterBtn {
+  cursor: pointer;
+  padding: 0.5rem 18px;
+  border: 1px solid rgba(130, 135, 149, 1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  border-radius: 8px;
+  margin-right: 5px;
+  cursor: pointer;
+  background: transparent;
+  color: rgba(130, 135, 149, 1);
+  transition: all 0.3s ease-in-out;
+}
+
+.active {
+  background: rgba(112, 35, 56, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.sortByItems {
+  max-width: 150px;
+  overflow: hidden;
+  position: absolute;
+  right: 1.3rem;
+  top: 2.5rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s ease-in-out;
+  .sortItem {
+    font-size: 0.8rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid gray;
+  }
+  .sortItem:hover {
+    font-weight: 500;
+    color: white;
+    // scale: 1.09;
+    background: rgba(112, 35, 56, 1);
+  }
+}
+
+.sortByItemsHide {
+  display: none;
+}
+
+.sortActive {
+  background-color: rgba(112, 35, 56, 1);
+  // background-color: rgba(253, 205, 79, 1);
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid gray;
+}
+
+.filters {
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 5px 8px;
+  }
+
+  .filterContainer {
+    gap: 5px;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .filters {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+}

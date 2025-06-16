@@ -1,0 +1,325 @@
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 1rem auto;
+  position: relative;
+  display: flex;
+  gap: 1rem;
+
+  .certificate {
+    width: 550px;
+    max-height: 450px;
+    object-fit: contain;
+    position: sticky;
+    top: 4rem;
+    left: 0;
+  }
+}
+
+.campaignListContainer {
+  max-width: 1100px;
+  width: 100%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.carousel_card {
+  position: relative;
+  width: 350px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(90%);
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+.carousel_caption_overlay {
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 4px 10px;
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.title {
+  overflow: hidden;
+  padding-right: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  // height: 135px;
+}
+
+.caption {
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.donateBtn {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.8rem;
+  background: rgba(169, 42, 4, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+  span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background: white;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    color: rgba(0, 124, 54, 1);
+  }
+}
+
+.popUpContainer {
+  .popUp {
+    margin: 0rem auto;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    max-width: 1100px;
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+
+    .head {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 100%;
+      letter-spacing: 0%;
+
+      img {
+        max-width: 18px;
+        width: 100%;
+        margin-right: 0.2rem;
+      }
+    }
+
+    .input_group {
+      display: flex;
+      width: 100%;
+      gap: 1rem;
+      margin-top: 1.5rem;
+      font-family: "Poppins", sans-serif;
+      transition: all 0.3s ease-in-out;
+
+      input {
+        position: relative;
+        // flex: 1;
+        min-width: 140px;
+        width: 50%;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding: 12px 10px;
+      }
+    }
+
+    h4 {
+      margin-top: 1.5rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: rgba(151, 155, 167, 1);
+    }
+
+    button {
+      outline: none;
+      border: 1px solid rgba(169, 42, 4, 1);
+      color: rgba(169, 42, 4, 1);
+      padding: 0.6rem 1.8rem;
+      border-radius: 1.5rem;
+      background: transparent;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+
+    .submitBtn {
+      background: rgba(169, 42, 4, 1);
+      color: white;
+    }
+
+    .claimsButtons {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+
+    .certificate {
+      position: static;
+      width: 100%;
+      height: 400px;
+      object-fit: contain;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .popUp {
+    width: 100%;
+    .input_group {
+      flex-direction: column;
+      width: 100%;
+
+      input {
+        width: 100%;
+        max-width: 100% !important;
+      }
+    }
+
+    button {
+      margin-top: 1rem auto;
+      width: 140px;
+    }
+
+    .claimsButtons {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+// .header {
+//   padding: 1rem;
+//   width: 100%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background-image: url("/slidesImages/thankyoubg.png");
+//   background-position: center;
+//   background-size: contain;
+//   img {
+//     max-width: 320px;
+//     height: auto;
+//     width: 100%;
+//     object-fit: cover;
+//   }
+// }
+
+// .details {
+//   max-width: 600px;
+//   text-align: center;
+//   padding: 1rem;
+//   overflow: hidden;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   flex-direction: column;
+//   margin: 1rem auto;
+
+//   h3 {
+//     font-family: "Poppins", sans-serif;
+//     font-weight: 700;
+//     font-size: 28px;
+//     line-height: 100%;
+//     letter-spacing: 0%;
+//     text-align: center;
+//   }
+//   p {
+//     font-family: "Poppins", sans-serif;
+//     font-weight: 400;
+//     font-size: 12px;
+//     line-height: 100%;
+//     letter-spacing: 0%;
+//     text-align: center;
+//   }
+// }
+
+// .buttons {
+//   max-width: 400px;
+//   width: 100%;
+//   padding: 0.5rem;
+//   display: flex;
+//   align-items: center;
+//   gap: 1rem;
+
+//   button {
+//     outline: none;
+//     width: 50%;
+//     border: 1px solid rgba(169, 42, 4, 1);
+//     padding: 0.7rem 1.3rem;
+//     border-radius: 1.3rem;
+//     background-color: transparent;
+//     color: rgba(169, 42, 4, 1);
+//     font-family: "Poppins", sans-serif;
+//     line-height: 100%;
+//     font-size: 14px;
+//     letter-spacing: 0;
+//   }
+// }

@@ -1,0 +1,52 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.content {
+	position: absolute;
+	top: 20%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+.content h1 {
+	font-size: 36px;
+	//margin-bottom: 20px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.content.show h1 {
+	opacity: 1;
+}
+
+.content p {
+	font-size: 22px;
+	margin-bottom: 40px;
+	color: rgb(0, 0, 0);
+	block-size: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		height: auto; /* Adjust height for smaller screens */
+	}
+
+	.content {
+		top: 40%; /* Change position for smaller screens */
+		left: 50%; /* Change position for smaller screens */
+	}
+
+	.content h1 {
+		font-size: 28px; /* Adjust font size for smaller screens */
+	}
+
+	.content p {
+		font-size: 18px; /* Adjust font size for smaller screens */
+	}
+}

@@ -1,0 +1,20 @@
+.otpWrapper {
+  button {
+    border: 0;
+    background-color: unset;
+    text-decoration: underline;
+    padding: 0;
+  }
+}
+
+.inputWrapper {
+  gap: 16px;
+}
+
+.otpInput {
+  margin: 0 !important;
+}
+
+.resendWrapper {
+  align-items: center;
+}

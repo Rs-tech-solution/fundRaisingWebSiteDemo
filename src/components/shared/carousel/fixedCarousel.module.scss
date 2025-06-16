@@ -1,0 +1,13 @@
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.25rem;
+  overflow-x: auto;
+  transition: all 0.5s;
+  overflow-x: overlay;
+}
+
+.slider::-webkit-scrollbar {
+  height: 0;
+}

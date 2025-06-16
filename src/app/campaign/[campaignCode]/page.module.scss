@@ -1,0 +1,271 @@
+.detailsWrapper {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 16px;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+    border-radius: 8px;
+  }
+}
+
+// staticcode here
+
+.wrapperClass {
+  // background-color: #ffeeee;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 50px 0;
+  align-items: flex-start;
+  background-color: #ffeeee;
+  // border-radius: 10px;
+}
+
+.imageContainer {
+  overflow: hidden;
+  margin: 15px 20px 10px 50px;
+  img {
+    border-radius: 10px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 8px 0 0 15px;
+  padding-left: 20px;
+}
+
+.details {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.campaignDetails {
+  max-width: 350px;
+  background-color: #fafafa;
+  border: 2px solid rgb(197, 197, 197);
+  //  / height: auto;
+  //min-height: 80px;
+  padding: 25px 8px;
+  text-align: center;
+  border-radius: 5px;
+
+  .ngoWrap {
+    padding-left: 2px;
+    color: #adadad;
+    justify-content: center;
+    text-align: center;
+  }
+  .ngoName {
+    padding-left: 2px;
+    color: #1b1b1b;
+
+    .firstLetter {
+      //  width: fit-content;
+      background: #8f8f8f;
+      border-radius: 100%;
+      margin: 10px;
+      margin-top: 20px;
+      padding: 10px;
+      border: #1b1b1b;
+    }
+  }
+}
+
+.shareButton {
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.shareButton ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.shareButton ul li {
+  margin-right: 20px;
+}
+
+.shareButton ul li:first-child {
+  background-color: #357bc2;
+  border-radius: 50%;
+}
+
+.shareButton ul li:nth-child(2) {
+  background-color: #51c235;
+  border-radius: 50%;
+}
+
+.shareButton ul li:last-child {
+  background-color: #357bc2;
+  border-radius: 50%;
+}
+
+.shareButton ul li svg {
+  transition: transform 0.4s ease;
+}
+
+.shareButton ul li:hover svg {
+  transform: scale(1.3);
+  color: #ffffff;
+}
+
+.detailAndDonationWrapper {
+  display: flex;
+  background-color: #ffeeee;
+  margin: 0px 50px;
+  // border-radius: 10px;
+}
+
+.CampaignImageContainers {
+  background-color: #ffeeee;
+  justify-content: center;
+  width: 55%;
+  margin: 0px 20px 0 50px;
+  img {
+    border-radius: 10px;
+    margin: 15px auto;
+  }
+}
+
+.DonationBagWrapper {
+  background-color: #fff5f5;
+  border-radius: 10px;
+  margin: 15px 0;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  right: 0;
+}
+.donationBag {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 0 0 0 20px;
+}
+.priceTags {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.priceTag {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  border: 1px solid #ffb833;
+  cursor: pointer;
+}
+
+.priceTag:last-child {
+  margin-right: 0;
+}
+
+.customDonation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  padding: 10px 0 0 0;
+}
+
+.customDonation input {
+  padding: 10px;
+  border: transparent;
+  border-bottom: 1px solid rgb(202, 223, 86);
+  width: 230px;
+  background-color: transparent;
+}
+
+.customDonation select {
+  padding: 10px;
+  border: transparent;
+  border-bottom: 1px solid rgb(202, 223, 86);
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.payOptions ul {
+  margin-left: 10px;
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.payOptions ul li {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.payOptions ul li span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.payOptions ul li svg {
+  transition: transform 0.4s ease;
+}
+
+.payOptions ul li:hover svg {
+  transform: scale(1.3);
+  color: #ff0c0c;
+}
+
+.paymentButton {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 6px;
+  margin-bottom: 50px;
+  :hover {
+    background: linear-gradient(to right, #ff9d9d, #8854e1);
+  }
+
+  div {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #f7b733, #fc4a1a);
+
+    span {
+      font-weight: bold;
+      margin-left: 10px;
+    }
+  }
+}

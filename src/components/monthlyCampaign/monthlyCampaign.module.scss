@@ -1,0 +1,169 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto;
+  margin-bottom: 2rem;
+  // padding: 0 6rem;
+}
+
+.header {
+  margin: 0.5rem auto;
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  text-align: center;
+
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(14, 14, 16, 1);
+  }
+}
+
+.wrapper {
+  max-width: 920px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  .navBtn {
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    color: rgba(131, 32, 3, 1);
+    border: 1px solid rgba(131, 32, 3, 1);
+    background-color: transparent;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    &:first-child {
+      left: 0px;
+    }
+
+    &:last-child {
+      right: 0px;
+    }
+    &.disabled {
+      opacity: 1;
+      pointer-events: none;
+      border-color: rgba(215, 216, 221, 1);
+      color: rgba(215, 216, 221, 1);
+    }
+  }
+}
+
+// .navBtn:hover {
+//   background: rgba(169, 42, 4, 1);
+//   color: rgba(255, 255, 255, 1);
+//   border: none;
+// }
+
+.swiperWrapper {
+  max-width: 800px;
+  width: 100%;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.monthlyCampCard {
+  max-width: 800px;
+  margin: 0px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 0.5px solid rgba(149, 198, 161, 1);
+  padding: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.monthlyCampImage {
+  // max-width: 560px;
+  max-height: 500px;
+  width: 50%;
+  object-fit: cover;
+  border-radius: 0.7rem;
+}
+
+.monthlyCampInfo {
+  width: 50%;
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  gap: 0.5rem;
+}
+
+.monthlyCampTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(14, 14, 16, 1);
+  // margin: 0.8rem auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.monthlyCampBtn {
+  width: 100%;
+  background: rgba(169, 42, 4, 1);
+  border-radius: 2rem;
+  border: none;
+  padding: 0.7rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .monthlyCampCard {
+    width: 100%;
+    flex-direction: column;
+  }
+  .monthlyCampImage {
+    width: 100%;
+    max-height: 354px;
+    height: 100%;
+  }
+  .monthlyCampInfo {
+    width: 100%;
+    justify-content: center;
+    gap: 0.8rem;
+    .title {
+      font-size: 1.4rem;
+    }
+  }
+
+  .navBtn {
+    display: none;
+  }
+  .header {
+    padding: 4px 10px;
+  }
+}

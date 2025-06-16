@@ -1,0 +1,142 @@
+.updates_container {
+  width: 100%;
+  margin: auto;
+  padding-top: 1rem;
+
+  h2 {
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  .update_item {
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem auto;
+    align-items: flex-start;
+  }
+
+  .update_marker {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    .circle {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: rgba(112, 35, 56, 1);
+      z-index: 1;
+    }
+  }
+
+  .progress {
+    width: 2px;
+    background-color: rgba(112, 35, 56, 1);
+    flex-grow: 1;
+  }
+
+  .update_content {
+    display: flex;
+    min-height: 50px;
+    margin-top: 5px;
+    margin-left: 9px;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .update_date {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+}
+
+.ql-editor iframe.ql-video {
+  width: 100% !important;
+  height: 400px !important;
+  aspect-ratio: 16 / 9;
+  max-width: 100%;
+  display: block;
+  margin: 1rem 0;
+  border: none;
+}
+
+.last_child {
+  padding-left: 1.8rem;
+}
+
+.update_text {
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrapperClassName {
+  width: 100%;
+  margin-bottom: 2rem;
+  // padding: 1rem;
+}
+
+.swiperClassName {
+  padding-bottom: 30px;
+}
+
+.campaignImage {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+}
+
+.div {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.previewWrapper {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.previewImage,
+.previewVideo {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.thumbnailVideo {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+@media (max-width: 480px) {
+  .update_item {
+    gap: 0rem;
+  }
+
+  .previewWrapper {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .update_text {
+    padding: 0rem;
+    width: 100%;
+  }
+}

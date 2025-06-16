@@ -1,0 +1,217 @@
+.container {
+  margin: 48px auto;
+}
+
+.hero {
+  background-image: url('/business-concept-with-team-close-up.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.heroContent {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+  animation: slideIn 1.5s ease-in-out;
+}
+
+.textSection {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.imageSection {
+  flex: 1;
+  height: 300px;
+  background-image: url('/about-img-2.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  animation: zoomIn 1.5s ease-in-out;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.stat {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.stat h2 {
+  font-size: 2rem;
+  color: #e67e22;
+}
+
+.missionSection {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.missionSection h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.missionSection p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.volunteerSection {
+  margin-top: 40px;
+}
+
+.volunteerSection h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.volunteerOptions {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.volunteerOption {
+  background-color: #e67e22;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  flex: 1;
+  min-width: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.volunteerOption:hover {
+  transform: scale(1.05);
+}
+
+.button {
+  display: inline-block;
+  background-color: #e67e22;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #d35400;
+}
+
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 767px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .section {
+    flex-direction: column;
+  }
+
+  .textSection {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .imageSection {
+    height: 200px;
+    width: 100%;
+    flex: auto;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .stat h2 {
+    font-size: 1.5rem;
+  }
+
+  .missionSection h2 {
+    font-size: 2rem;
+  }
+
+  .volunteerOptions {
+    flex-direction: column;
+  }
+
+  .volunteerOption {
+    max-width: 100%;
+  }
+}

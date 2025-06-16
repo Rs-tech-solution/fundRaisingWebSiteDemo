@@ -1,0 +1,18 @@
+.btnPrimary {
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 24px;
+  letter-spacing: 1px;
+  background-color: #423b7d;
+  color: white;
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(black, 0.2);
+  cursor: pointer;
+}
+
+.btnPrimary:hover {
+  outline: 0;
+  box-shadow: none;
+  background: #5f5895;
+}

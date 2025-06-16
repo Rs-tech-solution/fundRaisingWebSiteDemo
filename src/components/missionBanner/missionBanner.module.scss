@@ -1,0 +1,128 @@
+.mission_banner {
+  position: relative;
+  max-width: 1000px;
+  height: 500px;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .content_container {
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    line-height: 100%;
+    // gap: 0rem;
+    h1 {
+      font-size: 2rem;
+      font-family: "Poppins", sans-serif;
+      // font-weight: 700;
+      // margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 6rem;
+      // margin-bottom: 10px;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif;
+    }
+
+    h3 {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+    p {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+
+    .button_container {
+      display: flex;
+      justify-content: center;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 100%;
+      letter-spacing: 0%;
+
+      .save_stray,
+      .spread_word {
+        padding: 10px 20px;
+        margin: 0 10px;
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+      }
+
+      .save_stray {
+        background-color: rgba(169, 42, 4, 1);
+        color: white;
+      }
+
+      .spread_word {
+        background-color: #ffffff;
+        color: rgba(169, 42, 4, 1);
+        border: 1px solid rgba(169, 42, 4, 1);
+      }
+    }
+  }
+
+  .image {
+    position: absolute;
+  }
+
+  .left_image {
+    top: 0;
+    left: 0;
+    max-width: 200px;
+    max-height: 250px;
+    object-fit: cover;
+  }
+
+  .right_image {
+    top: 0;
+    right: 0;
+    max-width: 200px;
+    max-height: 250px;
+    object-fit: cover;
+  }
+
+  .bottom_left_image {
+    bottom: 0;
+    left: 50px;
+    max-width: 150px;
+    object-fit: cover;
+  }
+
+  .bottom_right_image {
+    bottom: 0;
+    right: 50px;
+    max-width: 150px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mission_banner {
+    padding: 1rem;
+    margin-top: -5rem;
+    text-align: center;
+    .image {
+      display: none;
+    }
+
+    .button_container {
+      button {
+        font-size: 1rem;
+      }
+    }
+  }
+}

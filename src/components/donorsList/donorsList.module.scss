@@ -1,0 +1,131 @@
+.donorsListcontainer {
+  width: 100%;
+  margin: 0.5rem auto;
+
+  .donorsListOption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem auto;
+
+    .donorsFilterBtn {
+      width: 50%;
+      padding: 0.5rem;
+      border: none;
+      background-color: transparent;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: rgba(130, 135, 149, 1);
+      border-bottom: 1px solid rgba(225, 227, 230, 1);
+      transition: border 0.3s ease-in-out;
+    }
+
+    .activeDonorFilter {
+      color: rgba(169, 42, 4, 1);
+      border-color: rgba(169, 42, 4, 1);
+    }
+  }
+}
+
+.donorsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  max-height: 180px;
+  overflow-y: scroll;
+  white-space: nowrap;
+  scroll-snap-type: y mandatory;
+  padding-right: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.donorsList::-webkit-scrollbar {
+  width: 3px;
+  color: yellow;
+}
+
+.donorDetail {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  img {
+    // max-width: 52px;
+    width: 52px;
+    height: 45px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+
+  .donorPersonalInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h4 {
+        max-width: 150px;
+        overflow: hidden;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+      }
+      button {
+        background-color: rgba(225, 247, 242, 1);
+        border-radius: 5px;
+        padding: 8px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        border: none;
+        letter-spacing: 0%;
+      }
+    }
+
+    p {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+  }
+}
+
+.veiwMoreBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    padding: 0.4rem 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(169, 42, 4, 1);
+    color: rgba(225, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+}
+
+// @media screen and (max-width: 768px) {
+//   .donorsListcontainer {
+//     text-align: center;
+//   }
+// }

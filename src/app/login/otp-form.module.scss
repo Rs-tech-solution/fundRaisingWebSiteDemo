@@ -1,0 +1,49 @@
+.otpWrapper {
+  text-align: left;
+  color: white;
+
+  label {
+    margin-bottom: 4px;
+    font-weight: 500;
+    color: white;
+  }
+}
+.verifyBtn {
+  margin-top: 12px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: transform 0.2s, background 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.verifyBtn:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  transform: scale(1.03);
+}
+
+.verifyBtn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

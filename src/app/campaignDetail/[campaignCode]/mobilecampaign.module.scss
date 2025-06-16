@@ -1,0 +1,377 @@
+.container {
+  width: 100%;
+}
+
+.imageContainer {
+  .img {
+    width: 100%;
+    max-height: 250px;
+    height: 100%;
+  }
+}
+
+.wrapperClassName {
+  padding: 0;
+}
+
+.swiperClassName {
+  padding-bottom: 40px;
+}
+
+.detail_container {
+  padding: 1rem;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  margin: 1rem 0px;
+}
+
+.tag {
+  padding: 4px 10px;
+  border-radius: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.taxBenefit {
+  border: 1px solid rgba(0, 124, 54, 1);
+  color: rgba(0, 124, 54, 1);
+}
+
+.verified {
+  color: rgba(169, 42, 4, 1);
+  border: 1px solid rgba(169, 42, 4, 1);
+  background: rgba(253, 233, 176, 1);
+}
+
+.assured {
+  border: 1px solid rgba(0, 124, 54, 1);
+  color: rgba(0, 124, 54, 1);
+}
+
+.title {
+  // text-wrap: balance;
+  // word-break: break-word;
+  // overflow-wrap: break-word;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.campaignTime {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  button {
+    border: none;
+    color: rgba(151, 155, 167, 1);
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+  }
+}
+
+.funding {
+  width: 100%;
+  .progressDetail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h3:first-of-type {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: rgba(14, 14, 16, 1);
+    }
+  }
+}
+
+.h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(14, 14, 16, 1);
+  text-align: right;
+}
+
+.priceTags {
+  margin: 0.8rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceTag {
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  max-width: 90px;
+  text-align: center;
+  border: 1px solid rgba(225, 227, 230, 1);
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.activePriceTag {
+  background-color: rgba(251, 191, 7, 1);
+  border: 1px solid rgba(14, 14, 16, 1);
+  font-weight: 700;
+}
+
+.input {
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  border: transparent;
+  border: none;
+  border: 1px solid rgba(225, 227, 230, 1);
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+}
+
+.paymentButton {
+  background-color: rgba(169, 42, 4, 1);
+  border: none;
+  width: 100%;
+  text-align: center;
+  margin: 1.5rem auto;
+  padding: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.tabs {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 5px;
+  -webkit-overflow-scrolling: touch;
+  padding: 1rem 0.5rem;
+  gap: 1rem;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 200;
+  transition: all 0.3s ease-in-out;
+}
+
+.tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.tab {
+  padding: 0.7rem 1rem;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(130, 135, 149, 1);
+  color: rgba(130, 135, 149, 1);
+  cursor: pointer;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.tabLebel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+
+  img {
+    filter: brightness(10%) grayscale(100%);
+    opacity: 90%;
+    max-width: 14px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.activeTabClassName {
+  background-color: rgba(112, 35, 56, 1);
+  color: white;
+  font-weight: 700;
+  img {
+    filter: brightness(200%) grayscale(100%);
+  }
+}
+
+.showTabDown {
+  top: 60px;
+}
+
+.donorsListcontainer {
+  width: 100%;
+  margin-top: 3rem;
+  h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  .donorsListOption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem auto;
+
+    .donorsFilterBtn {
+      width: 50%;
+      padding: 0.5rem;
+      border: none;
+      background-color: transparent;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: rgba(130, 135, 149, 1);
+      border-bottom: 1px solid rgba(225, 227, 230, 1);
+      transition: border 0.3s ease-in-out;
+    }
+
+    .activeDonorFilter {
+      color: rgba(169, 42, 4, 1);
+      border-color: rgba(169, 42, 4, 1);
+    }
+  }
+}
+
+.donorsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  max-height: 180px;
+  overflow-y: scroll;
+  white-space: nowrap;
+  scroll-snap-type: y mandatory;
+  padding-right: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.donorsList::-webkit-scrollbar {
+  width: 3px;
+  color: yellow;
+}
+
+.donorDetail {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  img {
+    max-width: 52px;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .donorPersonalInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h4 {
+        max-width: 150px;
+        overflow: hidden;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+      }
+      button {
+        background-color: rgba(225, 247, 242, 1);
+        border-radius: 5px;
+        padding: 8px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        border: none;
+        letter-spacing: 0%;
+      }
+    }
+
+    p {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+  }
+}
+
+.veiwMoreBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: rgba(169, 42, 4, 1);
+    color: rgba(225, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+}
+
+.donorListHeader {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 100%;
+  font-weight: 700;
+  text-align: center;
+}

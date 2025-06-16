@@ -1,0 +1,157 @@
+.product {
+  // max-width: 420px;
+  // width: 100%;
+  // flex: 1 1 calc(33.33% - 8px);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  padding: 2.5rem;
+  border: 1px solid rgba(229, 229, 248, 1);
+}
+
+.productImg {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.titleWrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  width: 100%;
+  border: 1px solid rgba(229, 229, 248, 1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.toggleTitleBtn {
+  cursor: pointer;
+  position: absolute;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: rgba(169, 42, 4, 1);
+  right: 0;
+  top: 8px;
+  .arrow {
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+.title {
+  // height: 30px;
+  flex: 1;
+  max-width: 80%;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.expandedTitle {
+  white-space: normal;
+  display: block;
+  overflow: visible;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+
+  .originalprice {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+  span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: line-through;
+    color: rgba(130, 135, 149, 1);
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    background-color: rgba(111, 172, 42, 1);
+    color: rgba(47, 108, 69, 1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+}
+
+.description {
+  margin: 0.5rem auto;
+  width: 100%;
+  // max-height: 50px;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.expandedDescription {
+  max-height: 1000px;
+  overflow: visible;
+}
+
+.bookingbtn {
+  margin-top: 0.6rem;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  background-color: rgba(169, 42, 4, 1);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.readmorebtn {
+  color: rgba(169, 42, 4, 1);
+  background-color: transparent;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+// @media (max-width: 900px) {
+//   .product {
+//     flex: 1 1 calc(50% - 16px);
+//   }
+// }
+
+// @media (max-width: 600px) {
+//   .product {
+//     flex: 1 1 100%;
+//   }
+// }

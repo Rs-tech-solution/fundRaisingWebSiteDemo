@@ -1,0 +1,183 @@
+.order_card {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 24px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  font-family: "Poppins", sans-serif;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  .order_card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+
+    .label {
+      font-size: 12px;
+      color: rgba(130, 135, 149, 1);
+      margin-bottom: 4px;
+      font-weight: 400;
+    }
+
+    .value {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .view_order_detail {
+      // border-bottom: 1px solid black;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  .order_card_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    flex-wrap: wrap;
+  }
+
+  .order_card_imageSection {
+    display: flex;
+    align-items: center;
+  }
+
+  .order_card_image {
+    flex: 0 0 100px;
+
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
+
+  .order_card_details {
+    flex: 1;
+    padding: 0px 1rem;
+    padding-top: 1rem;
+    line-height: 100%;
+
+    h3 {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 100%;
+    }
+
+    .location {
+      font-size: 14px;
+      color: rgba(151, 155, 167, 1);
+      line-height: 100%;
+      margin-bottom: 1rem;
+
+      span {
+        font-weight: 700;
+        line-height: 100%;
+      }
+    }
+
+    .amounts {
+      display: flex;
+      justify-content: space-between;
+      max-width: 200px;
+      line-height: 100%;
+      .label {
+        p {
+          font-size: 12px;
+          color: rgba(151, 155, 167, 1);
+          font-weight: 400;
+          line-height: 100%;
+          margin-top: -8px;
+        }
+      }
+
+      .value {
+        p {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 100%;
+          margin-top: -8px;
+        }
+      }
+    }
+  }
+
+  .order_card_action {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 1rem;
+
+    .btn {
+      padding: 8px 16px;
+      border: 1px solid rgba(169, 42, 4, 1);
+      border-radius: 20px;
+      background-color: #fff;
+      color: rgba(169, 42, 4, 1);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 100%;
+      font-family: "Poppins", sans-serif;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    select {
+      padding: 8px 16px;
+      outline: none;
+      border: 1px solid rgba(169, 42, 4, 1);
+      border-radius: 20px;
+      color: rgba(169, 42, 4, 1);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .order_card {
+    border: none;
+    border-bottom: 2px solid rgba(215, 216, 221, 1);
+    border-radius: 0;
+    box-shadow: none;
+
+    .order_card_header {
+      padding-bottom: 0;
+      border: none;
+
+      .order_amount {
+        display: none;
+      }
+    }
+    .order_card_body {
+      padding-top: 0;
+    }
+    .order_card_imageSection {
+      width: 100%;
+    }
+    .order_card_details {
+      width: 100%;
+
+      .amounts {
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+    .order_card_action {
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 1rem;
+
+      .btn {
+        width: 50%;
+        padding: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 20px;
+}
+
+.cardsDataWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.tempButton {
+  background-color: green;
+}

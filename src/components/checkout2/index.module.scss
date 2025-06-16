@@ -1,0 +1,274 @@
+.checkout_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+.checkout_left {
+  flex: 0 0 65%;
+  min-width: 300px;
+  min-height: 300px;
+  // flex: 1;
+  // width: 70%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.checkout_item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.item_image {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.item_title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.item_price {
+  color: orange;
+  font-size: 20px;
+}
+
+.tip_section {
+  margin-top: 20px;
+  label {
+    font-weight: 700;
+  }
+  p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  select {
+    padding: 2px 5px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 150px;
+  }
+}
+
+.personal_info {
+  margin-top: 20px;
+}
+
+.input_group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.input_group input {
+  flex: 1;
+  min-width: 140px;
+  padding: 10px;
+  // width: 100%;
+  max-width: 50%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.radio_group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  label {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  input {
+    margin-right: 5px;
+  }
+}
+
+.radio_group input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.radio_group input[type="radio"]:checked {
+  border-color: orange;
+  background-color: orange;
+}
+
+.radio_group input[type="radio"]:checked::after {
+  content: "✔";
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.radio_group input[type="radio"]:hover {
+  border-color: orange;
+}
+
+.checkbox_group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+
+  label {
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+}
+
+.custom_checkbox {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom_checkbox:checked {
+  background-color: orange;
+  border-color: orange;
+}
+
+.custom_checkbox:checked::after {
+  content: "✔";
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom_checkbox:hover {
+  border-color: orange;
+}
+
+.checkout_right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: auto;
+  min-width: 280px;
+  // width: 30%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.summary_row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.checkout_button {
+  width: 100%;
+  padding: 12px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+
+  &:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+}
+
+.whatsapp_button {
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+}
+
+.whatsapp_button button {
+  background-color: transparent;
+  color: #4bcc54;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .checkout_container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .checkout_left,
+  .checkout_right {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  // .checkout_right {
+  //   align-self: stretch;
+  // }
+}
+
+@media (max-width: 500px) {
+  .checkout_item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .input_group {
+    flex-direction: column;
+    width: 100%;
+
+    input {
+      max-width: 100%;
+    }
+  }
+
+  .radio_group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkout_button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

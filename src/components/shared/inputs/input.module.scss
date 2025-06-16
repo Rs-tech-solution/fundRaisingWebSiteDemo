@@ -1,0 +1,105 @@
+// .inputStyle {
+//   background-color: inherit;
+//   border: 1px solid #917777;
+//   box-shadow: none;
+//   border-radius: 4px;
+//   display: block;
+//   width: 100%;
+//   padding: 13px 24px 13px 16px;
+//   font-size: 16px;
+//   line-height: 1;
+//   letter-spacing: 1px;
+//   color: black;
+//   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+// }
+
+// .inputStyle:focus {
+//   outline: 0;
+//   border-color: black;
+//   color: black;
+// }
+
+// .inputStyle:focus+label+span {
+//   color: black;
+// }
+
+// .inputsLabel {
+//   background-color: inherit;
+//   color: black;
+//   font-size: 16px;
+//   font-weight: 500;
+//   padding: 3px;
+//   letter-spacing: 1px;
+//   line-height: 1;
+//   pointer-events: none;
+//   margin-bottom: 0;
+//   position: absolute;
+//   top: 50%;
+//   left: 13px;
+//   transform: translateY(-50%);
+//   border-radius: 4px;
+// }
+
+// .field {
+//   position: relative;
+//   margin-bottom: 0px;
+//   background-color: inherit;
+
+//   label,
+//   input {
+//     transition: all 0.2s;
+//     touch-action: manipulation;
+//     transform-origin: left bottom;
+//   }
+
+//   input:placeholder-shown+label {
+//     transform: translateY(-50%);
+//     opacity: 0.7;
+//   }
+
+//   ::-webkit-input-placeholder {
+//     opacity: 0;
+//     transition: inherit;
+//   }
+
+//   input:focus::-webkit-input-placeholder {
+//     opacity: 1;
+//   }
+
+//   input:not(:placeholder-shown)+label,
+//   input:focus+label {
+//     top: 0;
+//     transform: translateY(-50%);
+//     opacity: 1;
+//     font-size: 13px;
+//   }
+
+//   input:not(:placeholder-shown)+label {
+//     display: block;
+//   }
+
+//   input::placeholder {
+//     opacity: 1;
+//   }
+
+//   input[type="date"]::-webkit-inner-spin-button {
+//     opacity: 0;
+//   }
+
+//   input[type="date"]::-webkit-calendar-picker-indicator {
+//     background: url("../../../../public/calendar-icon.png") center/70% no-repeat;
+//     color: rgba(black, 0);
+//     opacity: 0.5;
+//   }
+
+//   input[type="date"]::-webkit-calendar-picker-indicator:hover {
+//     opacity: 0.8;
+//   }
+
+//   input:-webkit-autofill,
+//   input:-webkit-autofill:hover,
+//   input:-webkit-autofill:focus,
+//   input:-webkit-autofill:active {
+//     -webkit-box-shadow: 0 0 0 30px white inset !important;
+//   }
+// }

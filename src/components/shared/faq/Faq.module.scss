@@ -1,0 +1,72 @@
+.container {
+  max-width: 1150px;
+  width: 100%;
+  margin: auto;
+  font: "Poppins", sans-serif;
+}
+
+.header {
+  max-width: 700px;
+  width: 100%;
+  margin: 1.9rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  color: rgba(14, 14, 16, 1);
+
+  .heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  .text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+}
+
+.queAns {
+  border: 1px solid rgba(225, 227, 230, 1);
+  padding: 1rem;
+  margin: 0.8rem auto;
+  border-radius: 0.3rem;
+}
+
+.icon {
+  color: rgba(112, 35, 56, 1);
+}
+
+.question {
+  margin-bottom: 0px;
+  color: rgba(14, 14, 16, 1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.answer {
+  margin-top: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: rgba(14, 14, 16, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    padding: 1rem 1.8rem;
+  }
+}
