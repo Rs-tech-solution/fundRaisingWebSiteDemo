@@ -18,11 +18,11 @@ const CarouselComponent = ({ images = [] }) => {
         <Swiper
           modules={[Pagination, Navigation, Autoplay]}
           slidesPerView={1.2}
-          spaceBetween={10}
+          spaceBetween={5}
           centeredSlides={true}
           loop={true}
           autoplay={{
-            delay: 3000,
+            delay: 4000,
             disableOnInteraction: false,
           }}
           pagination={{ clickable: true }}
@@ -36,9 +36,9 @@ const CarouselComponent = ({ images = [] }) => {
           }}
           style={{
             // "--swiper-navigation-color": "#fff",
-            "--swiper-pagination-color": "rgba(169, 42, 4, 1)",
-            // "--swiper-pagination-active-color": "red",
-            // "--swiper-pagination-bottom": "20px",
+            "--swiper-pagination-color": "rgb(235, 126, 54)",
+             "--swiper-pagination-active-color": "red",
+             "--swiper-pagination-bottom": "20px",
             // "--swiper-scrollbar-color": "#fff",
             // "--swiper-scrollbar-drag-background-color": "#fff",
           }}

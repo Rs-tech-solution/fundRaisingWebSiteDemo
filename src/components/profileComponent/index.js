@@ -88,7 +88,7 @@ const ProfileComponent = ({ id }) => {
               <span className={styles.profile_card_badge}>Silver</span>
             </div>
             <div className={styles.profile_card_info}>
-              <h3 className={styles.profile_card_name}>Rajsekhar Reddy</h3>
+              <h3 className={styles.profile_card_name}>Developer User</h3>
               <p className={styles.profile_card_location}>Hyderabad, India</p>
             </div>
             <div className={styles.profile_card_footer}>

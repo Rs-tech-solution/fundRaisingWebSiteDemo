@@ -23,13 +23,13 @@ const Footer = () => {
           <div className={styles.footerItems}>
             <div className={styles.logo}>
               <div>
-                <img src="/images/vedalogo.png" alt="" />
+                <img src="/slidesImages/MainLogo3.png" alt="MainLogo3" />
               </div>{" "}
-              <h1>Veda Sanakalpa</h1>
+              <h4>Fundraising Platform</h4>
             </div>
             <div className={styles.footerText}>
-              <h3>Set up to Protect Dharma</h3>
-              <p>join hands with us to partake in multiple sevas</p>
+              <h3>Set up to Protect Helpless</h3>
+              <p>join hands with us to support those in need</p>
             </div>
             {!isSmScreen && (
               <div className={styles.socialIcons}>
@@ -90,12 +90,12 @@ const Footer = () => {
           >
             <h3>Address</h3>
             <div>
-              Vaidika Dharma Services Pvt. Ltd. Unit No 203, 2nd Floor Suite
+              Global Bizz Services Pvt. Ltd. Unit No 203, 2nd Floor Suite
               No.549, SBR CV Towers, Sector-I,Sy No 64, HUDA Techno Enclave,
               Madhapur, Hyderabad - 500081
             </div>
             <div className={styles.footerContact}>
-              <FaEnvelope size={18} /> <email>support@vedasankalpa.com</email>
+              <FaEnvelope size={18} /> <email>support@globalbizz.com</email>
             </div>
             <div className={styles.footerContact}>
               <FaPhone size={18} /> <div>+91 92565 85656</div>
@@ -143,7 +143,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className={styles.copyright}>
-          <p>Copyright © 2024 Veda Sankalapa. All right reserved</p>
+          <p>Copyright © 2025 Global Bizz Services Pvt. Ltd. All right reserved</p>
         </div>
       </div>
       <img src="/images/down.png" alt="" className={styles.cornerImg} />

@@ -138,22 +138,22 @@ const helps = [
 const donorList = [
   {
     img: "/slidesImages/user1.png",
-    name: "sonu chahar fjkjfdiklfjkdsfji jfjfi",
+    name: "Developer User fjkjfdiklfjkdsfji jfjfi",
     amount: "50,000",
   },
   {
     img: "/slidesImages/user1.png",
-    name: "sonu chahar",
+    name: "Developer User",
     amount: "50,000",
   },
   {
     img: "/slidesImages/user1.png",
-    name: "sonu chahar",
+    name: "Developer User",
     amount: "50,000",
   },
   {
     img: "/slidesImages/user1.png",
-    name: "sonu chahar",
+    name: "Developer User",
     amount: "50,000",
   },
 ];
@@ -718,7 +718,7 @@ const MonthlyCampaignsComponent = ({ isTemple }) => {
         ))}
       </div>
       <div className={styles.banner}>
-        <h3>Join Veda Sankalpa’s Monthly Mission Against Animal Cruelty</h3>
+        <h3>Join Fundraising’s Monthly Mission Against Animal Cruelty</h3>
         <p>
           With over 2000 donors subscribed to our Monthly Giving Mission, we
           have been able to provide:

@@ -52,10 +52,10 @@ const CampaignList = ({ campaigns = [] }) => {
         <div className={styles.campaignSwiperContainer}>
           <div className={styles.campaignContainer}>
             <div className={styles.campaignListingHeader}>
-              <h2>Dharma Parirakshana</h2>
+              <h2>Dharma Protection</h2>
               <p style={{ lineHeight: "100%" }}>
                 Uphold the Glory of Sanatana Dharma: Support Temples, Veda
-                Pathshalas, Goshalas, & Ashrams through your generous donations.
+                Pathshalas, Goshalas, Everyday, we strive to make this world a better place. Our commitment towards bringing a change drives us and if you share our passion, come join us.
               </p>
             </div>
             <div className={styles.navigationBtn}>

@@ -102,9 +102,9 @@ const products = [
 
 const faqs = [
   {
-    question: "What is Veda Sankalpa?",
+    question: "What is Fundraising?",
     answer:
-      "Veda Sankalpa is a humble initiative of a donations-based crowdfunding platform dedicated to preserving the roots of Sanatana Dharma by supporting various religious and spiritual institutions and their projects. We help communities raise funds for initiati",
+      "Fundraising is a humble initiative of a donations-based crowdfunding platform dedicated to preserving the roots of Sanatana Dharma by supporting various religious and spiritual institutions and their projects. We help communities raise funds for initiati",
   },
   {
     question: "How do I track my order?",
@@ -175,7 +175,7 @@ const Campaign = () => {
     //   ref: refs.documentsRef,
     // },
     {
-      label: "Sankalpa",
+      label: "Videos",
       icon: "/slidesImages/play.png",
       ref: refs.videoRef,
     },
@@ -484,7 +484,7 @@ const Campaign = () => {
       <div className={styles.container}>
         <h2 className={styles.heading}>{campaignDetails?.title}</h2>
         <div className={styles.campaignBenfits}>
-          <p>Campaign by SOCIAL HEALTH AND MEDICINE (SOHAM) TRUST, Varanasi</p>
+          <p>Campaign by SOCIAL HEALTH AND MEDICINE (Fundraising) TRUST, Hyderabad</p>
           <div className={styles.tags}>
             <span className={`${styles.tag} ${styles.taxBenefit}`}>
               Tax Benefit

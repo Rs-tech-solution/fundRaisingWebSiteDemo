@@ -6,14 +6,14 @@ const VedaAboutUs = () => {
     <div className={styles.container}>
       <h3>About Us</h3>
       <p>
-        Welcome to Veda Sankalpa Seva Trust, a beacon of hope and renewal for
+        Welcome to Fundraising platform, a beacon of hope and renewal for
         the timeless traditions of Sanatana Dharma. Our Trust is built upon the
-        belief that the prosperity of Temples, Dharamshalas, Goshalas, and Veda
+        belief that the prosperity of Temples, Dharamshalas, Goshalas, and 
         Pathshalas – the four pillars – forms the cornerstone of upholding
         Sanatana Dharma.
       </p>
       <p>
-        At Veda Sankalpa Seva Trust, we envision a Bharath where the divine echo
+        At Fundraising platform, we envision a Bharath where the divine echo
         of Dharma resounds in every corner, where the spiritual,educational, and
         compassionate practices of Sanatana Dharma are not just preserved but
         thrive with renewed vigor and purpose. We aim to ensure that the
@@ -24,7 +24,7 @@ const VedaAboutUs = () => {
 
       <h3>Join Us</h3>
       <p>
-        Veda Sankalpa Seva Trust is a collective resolve to reawaken the glory
+        Fundraising platform is a collective resolve to reawaken the glory
         of Sanatana Dharma, making its principles a living reality in the hearts
         and minds of people across Bharath and beyond. We invite you to join us
         in this noble cause. Whether through participation, contribution, or

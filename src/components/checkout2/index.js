@@ -101,7 +101,7 @@ const Checkout = ({ id, donationAmount, image, title, currency, setDonation, fet
                             </option>
                         ))}
                     </select>
-                    <p className={styles.tip_info}>The amount collected through tips will go to Veda Sankalpa, for platform maintenance and operational expenses.</p>
+                    <p className={styles.tip_info}>The amount collected through tips will go to Fundraising, for platform maintenance and operational expenses.</p>
                 </div>
                 <hr />
 

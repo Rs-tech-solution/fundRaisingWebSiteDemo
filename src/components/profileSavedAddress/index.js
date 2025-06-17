@@ -6,7 +6,7 @@ const ProfileSavedAddressComponent = () => {
   const [addresses, setAddresses] = useState([
     {
       id: 1,
-      name: "sonu chahar",
+      name: "Developer User",
       addressType: "home",
       streetAddress: "H no. 224, SP Road",
       locality: "Begumpet, Hyderabad",
@@ -16,7 +16,7 @@ const ProfileSavedAddressComponent = () => {
     },
     {
       id: 2,
-      name: "sonu chahar",
+      name: "Developer User",
       addressType: "office",
       streetAddress: "H no. 224, SP Road",
       locality: "Begumpet, Hyderabad",

@@ -11,17 +11,19 @@ const OurMission = () => {
     >
       <div className="d-flex flex-column align-items-center justify-content-center gap-4 mb-2">
         <img
-          src="/slidesImages/banner1.png"
-          className={`img-fluid w-100 h-100 object-fit-cover rounded ${styles.image}`}
+          src="/slidesImages/ourmisssion.png"
+          width={300}
+          className={`img-fluid object-fit-contain rounded ${styles.image}`}
           alt="Card"
         />
         <div className="d-flex flex-column align-items-center justify-content-center gap-2 px-4">
           <h4 className={styles.title}>Our Mission</h4>
           <p className={styles.text}>
-            Welcome to Veda Sankalpa, a beacon of hope and renewal for the
+            Welcome to Fundraising, a beacon of hope and renewal for the
             timeless traditions of Sanatana Dharma. Our Foundation is built upon
             the belief that the prosperity of Temples, Dharamshalas, Goshalas,
-            and Veda Pathshalas - the four pillars - forms the corner
+            and Pathshalas - the four pillars - forms the cornerstone of
+            our cultural heritage.
           </p>
         </div>
       </div>

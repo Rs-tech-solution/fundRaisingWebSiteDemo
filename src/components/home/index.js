@@ -114,9 +114,9 @@ const campaigns = [
 
 const faqs = [
   {
-    question: "What is Veda Sankalpa?",
+    question: "What is Fundraising?",
     answer:
-      "Veda Sankalpa is a humble initiative of a donations-based crowdfunding platform dedicated to preserving the roots of Sanatana Dharma by supporting various religious and spiritual institutions and their projects. We help communities raise funds for initiati",
+      "Fundraising is a humble initiative of a donations-based crowdfunding platform dedicated to preserving the roots of Sanatana Dharma by supporting various religious and spiritual institutions and their projects. We help communities raise funds for initiati",
   },
   {
     question: "How do I track my order?",
@@ -132,25 +132,25 @@ const monthlyCampaigns = [
   {
     image: "/slidesImages/campaign1.png",
     title:
-      "Annadan to Ayyappa Swamys is equal to doing thousands of Yajnas. Donate to feed 800+ Swamys daily till Makara Sankranti.",
-    totalDonors: 10,
-  },
-  {
-    image: "/slidesImages/campaign2.png",
-    title:
-      "Annadan to Ayyappa Swamys is equal to doing thousands of Yajnas. Donate to feed 800+ Swamys daily till Makara Sankranti.",
+      " To donate to a Krishna temple, you can explore options like online donation",
     totalDonors: 10,
   },
   {
     image: "/slidesImages/campaign3.png",
     title:
-      "Annadan to Ayyappa Swamys is equal to doing thousands of Yajnas. Donate to feed 800+ Swamys daily till Makara Sankranti.",
+      "Restore Hope in Poor Purohit Families: They seek your help for food and survival expense.",
     totalDonors: 10,
   },
   {
+    image: "/slidesImages/monkey.webp",
+    title:
+      "Help Mahaveer Sharan Baba in Vrindavan feed 1000 monkeys every day.",
+    totalDonors: 10,
+  },
+    {
     image: "/slidesImages/campaign2.png",
     title:
-      "Annadan to Ayyappa Swamys is equal to doing thousands of Yajnas. Donate to feed 800+ Swamys daily till Makara Sankranti.",
+      "Annadan to Ayyappa Swamys is equal to doing thousands of Yajnas..",
     totalDonors: 10,
   },
 ];
@@ -160,25 +160,25 @@ const reviews = [
     rating: "5.0",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
     image: "/slidesImages/user1.png",
-    name: "sonu chahar",
+    name: "Developer User",
   },
   {
     rating: "5.0",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
     image: "/slidesImages/user1.png",
-    name: "sonu chahar",
+    name: "Developer User",
   },
   {
     rating: "5.0",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
     image: "/slidesImages/user1.png",
-    name: "sonu chahar",
+    name: "Developer User",
   },
   {
     rating: "5.0",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
     image: "/slidesImages/user1.png",
-    name: "sonu chahar",
+    name: "Developer User",
   },
 ];
 

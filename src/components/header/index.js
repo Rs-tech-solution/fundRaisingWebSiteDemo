@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useResponsive } from "@/context/useResponsive";
 import { logout, setUser } from "@/store/slices/authSlice";
 import Sidebar from "./sidebar";
-import logo from "../../../public/slidesImages/MainLogo.png";
+import logo from "../../../public/slidesImages/MainLogo3.png"; // Adjust the path as necessary
 import styles from "./style.module.scss";
 import { usePathname } from "next/navigation";
 
@@ -65,7 +65,24 @@ const Header = () => {
       >
         <nav className={styles.nav}>
           <div className={styles.logoContainer}>
-            <img src="/slidesImages/MainLogo.png" alt="" />
+            <Link href="/">
+              <img
+                src={logo.src}
+                alt="fundraising platform"
+              />
+              <span
+                style={{
+                  fontFamily: "Poppins",
+                  fontWeight: 500,
+                  fontSize: "1.3rem",
+                  lineHeight: "100%",
+                  letterSpacing: "0%",
+                  color: "rgba(169, 42, 4, 1)",
+                }}
+              >
+                Fundraising Platform
+              </span>
+            </Link>
           </div>
           <div className={styles.navList}>
             {navItems.map((item) => {
@@ -102,7 +119,7 @@ const Header = () => {
             <FaBars onClick={handleHamBurgerClick} size={24} />
           </div>
           <div className={styles.logoContainer}>
-            <img src="/slidesImages/MainLogo.png" alt="" />
+            <img src="/slidesImages/MainLogo3.png" alt="fundraising platform" />
           </div>
           <div className={styles.profileLogo}>
             <FaUser onClick={handleHamBurgerClick} size={24} />
@@ -124,40 +141,3 @@ const Header = () => {
 };
 
 export default Header;
-
-//  <div className={styles.navItem}>
-//               <Link href="/">Home</Link>
-//             </div>
-//             <div className={styles.navItem}>
-//               <Link href="/about">About Us</Link>
-//             </div>
-//             <div className={styles.navItem}>
-//               <Link href="/contact">Contact</Link>
-//             </div>
-//             <div className={styles.navItem}>
-//               <Link href="/campaigns">Contribute</Link>
-//             </div>
-//             <div className={styles.navItem}>
-//               <Link href="/policy">Policy</Link>
-//             </div>
-//             <div className={styles.navItem}>
-//               <Link href="/impact">Impact</Link>
-//             </div>{" "}
-//             <div className={styles.navItem}>
-//               <Link href="/cart">cart</Link>
-//             </div>
-//             <div className={styles.navItem}>
-//               <Link href={user ? "/checkout" : "/login"}>Checkout</Link>
-//             </div>
-{
-  /* <li className={styles.navItem}>
-              {user ? (
-                <>
-                  <span>{user.email}</span>
-                  <button onClick={handleLogout}>Logout</button>
-                </>
-              ) : (
-                <Link href="/login">Login</Link>
-              )}
-            </li> */
-}

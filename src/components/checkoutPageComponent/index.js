@@ -145,7 +145,7 @@ const CheckoutPageComponent = () => {
   const [addresses, setAddresses] = useState([
     // {
     //   id: 1,
-    //   name: "sonu chahar",
+    //   name: "Developer User",
     //   addressType: "home",
     //   streetAddress: "H no. 224, SP Road",
     //   locality: "Begumpet, Hyderabad",
@@ -155,7 +155,7 @@ const CheckoutPageComponent = () => {
     // },
     // {
     //   id: 2,
-    //   name: "sonu chahar",
+    //   name: "Developer User",
     //   addressType: "office",
     //   streetAddress: "H no. 224, SP Road",
     //   locality: "Begumpet, Hyderabad",
@@ -465,7 +465,7 @@ const CheckoutPageComponent = () => {
           <div className={styles.tip_section}>
             <label>Give Tip</label>
             <p className={styles.tip_info}>
-              The amount collected through tips will go to Veda Sankalpa, for
+              The amount collected through tips will go to Fundraising, for
               platform maintenance and operational expenses.
             </p>
             <div className={styles.tip_select}>
@@ -772,7 +772,7 @@ const CheckoutPageComponent = () => {
             <div className={styles.optionalDakshana}>
               <h3>Optional Dakshina</h3>
               <p>
-                Veda Sankalpa remains dedicated to upholding our customs while
+                Fundraising remains dedicated to upholding our customs while
                 introducing more powerful sevas to enhance your spiritual
                 experience. Your offerings of any sort, are embraced with open
                 arms and will be utilised in protecting dharma.
@@ -811,7 +811,7 @@ const CheckoutPageComponent = () => {
             <div className={styles.optionalDakshana}>
               <h3>Optional Dakshina</h3>
               <p>
-                Veda Sankalpa remains dedicated to upholding our customs while
+                Fundraising remains dedicated to upholding our customs while
                 introducing more powerful sevas to enhance your spiritual
                 experience. Your offerings of any sort, are embraced with open
                 arms and will be utilised in protecting dharma.

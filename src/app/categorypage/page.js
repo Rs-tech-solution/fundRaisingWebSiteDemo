@@ -118,13 +118,13 @@ const CategoryPage = () => {
     const now = new Date();
 
     switch (activeFilter) {
-      case "ongoing":
+      case "completed":
         return data.filter((item) => {
           const start = new Date(item.approvalDate);
           const end = new Date(item.endDate);
           return start <= now && end >= now;
         });
-      case "completed":
+      case "ongoing":
         return data.filter((item) => {
           const end = new Date(item.endDate);
           return end < now;

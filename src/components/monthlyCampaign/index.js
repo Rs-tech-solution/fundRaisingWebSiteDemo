@@ -39,9 +39,7 @@ const MonthlyCampaign = ({ campaigns }) => {
       <div className={styles.header}>
         <h2>Monthly Campaigns</h2>
         <p>
-          lorem ipsum lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Quisquam, quos. lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Quisquam, quos.
+    Create sustained impact. Support verified projects. Get regular updates. Save tax. Cancel anytime.
         </p>
       </div>
       <div className={styles.wrapper}>

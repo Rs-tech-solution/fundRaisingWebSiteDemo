@@ -18,25 +18,25 @@ const monthlyCampaigns = [
   {
     image: "/slidesImages/campaign1.png",
     title:
-      "Annadan to Ayyappa Swamys is equal to doing thousands of Yajnas. Donate to feed 800+ Swamys daily till Makara Sankranti.",
+      "Donation to Ayyappa Swamys is equal to doing thousands of Yajnas. Donate to feed 800+ Swamys daily till Makara Sankranti.",
     totalDonors: 10,
   },
   {
     image: "/slidesImages/campaign2.png",
     title:
-      "Annadan to Ayyappa Swamys is equal to doing thousands of Yajnas. Donate to feed 800+ Swamys daily till Makara Sankranti.",
+      "Donation to Ayyappa Swamys is equal to doing thousands of Yajnas. Donate to feed 800+ Swamys daily till Makara Sankranti.",
     totalDonors: 10,
   },
   {
     image: "/slidesImages/campaign3.png",
     title:
-      "Annadan to Ayyappa Swamys is equal to doing thousands of Yajnas. Donate to feed 800+ Swamys daily till Makara Sankranti.",
+      "Donation to Ayyappa Swamys is equal to doing thousands of Yajnas. Donate to feed 800+ Swamys daily till Makara Sankranti.",
     totalDonors: 10,
   },
   {
     image: "/slidesImages/campaign2.png",
     title:
-      "Annadan to Ayyappa Swamys is equal to doing thousands of Yajnas. Donate to feed 800+ Swamys daily till Makara Sankranti.",
+      "Donation to Ayyappa Swamys is equal to doing thousands of Yajnas. Donate to feed 800+ Swamys daily till Makara Sankranti.",
     totalDonors: 10,
   },
 ];
@@ -140,7 +140,7 @@ const ThankYouComponent = () => {
           </div>
           {!isSmScreen && (
             <div className={styles.campaignListContainer}>
-              {featuredCamapigns?.map((campaign) => (
+              {featuredCamapigns?.slice(0, 3).map((campaign) => (
                 <div className={styles.carousel_card}>
                   <img
                     src={campaign.imageSrc}

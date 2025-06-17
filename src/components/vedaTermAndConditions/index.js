@@ -2,48 +2,12 @@ import React from "react";
 import styles from "./TermsAndConditions.module.scss";
 import OrderListComponent from "../RenderListComponent";
 
-// const RenderList = ({ items, parentIndex = "" }) => {
-//   return (
-//     <ol>
-//       {items.map((item, idx) => {
-//         const currentIndex = parentIndex
-//           ? `${parentIndex}.${idx + 1}`
-//           : `${idx + 1}`;
-//         const hasChildren = item.children && item.children.length > 0;
-
-//         return (
-//           <li key={currentIndex}>
-//             <strong>{item.title && `${item.title}`}</strong>
-//             <div className={styles.condition}>{item.description}</div>
-
-//             {hasChildren && (
-//               <ol className={styles.nestedList}>
-//                 {item.children.map((child, childIdx) => {
-//                   const childIndex = `${currentIndex}.${childIdx + 1}`;
-//                   return (
-//                     <li key={childIndex}>
-//                       <div className={styles.condition}>
-//                         <span>{`${currentIndex}.${childIdx + 1}`}</span>{" "}
-//                         {child.description}
-//                       </div>
-//                     </li>
-//                   );
-//                 })}
-//               </ol>
-//             )}
-//           </li>
-//         );
-//       })}
-//     </ol>
-//   );
-// };
-
 const TermsAndConditions = () => {
   const termsData = [
     {
       title: "Introduction",
       description:
-        "Vaidika Dharma Services Pvt Ltd (Vedasankalpa) is committed to providing a seamless and transparent online platform for donations and related contributions. In addition to standard donations, we seek tips, which are optional, from the donors to support our platform and its operations.",
+        "Fundraising Platform Services Pvt Ltd (Fundraising ) is committed to providing a seamless and transparent online platform for donations and related contributions. In addition to standard donations, we seek tips, which are optional, from the donors to support our platform and its operations.",
     },
     {
       title: "Tips Collection",
@@ -60,7 +24,7 @@ const TermsAndConditions = () => {
         },
         {
           description:
-            "Donors can even choose to avoid tips to Vedasankalpa and proceed to give their donations for their chosen causes.",
+            "Donors can even choose to avoid tips to Fundraising  and proceed to give their donations for their chosen causes.",
         },
       ],
     },
@@ -135,14 +99,14 @@ const TermsAndConditions = () => {
           to donate money to their programs, projects and listed purposes
           (Pujas, Homam, Donations) The Platform lists and hosts Users, and acts
           as an online intermediary that enables Campaigners platform organises
-          Puja and Homam by consulting with Vedapandits.
+          Puja and Homam by consulting with pandits.
         </p>
         <p>
           Campaigners raise funds by asking donors in India and abroad (Donors)
           to donate money to their programs, projects and listed purposes
           (Pujas, Homam, Donations) The Platform lists and hosts Users, and acts
           as an online intermediary that enables Campaigners platform organises
-          Puja and Homam by consulting with Vedapandits.
+          Puja and Homam by consulting with pandits.
         </p>
       </section>
 
@@ -214,11 +178,11 @@ const TermsAndConditions = () => {
 
       <footer>
         <div>
-          Note: <a href="www.vedasankalpa.comm">vedasankalpa.com</a> operates
+          Note: <a href="www.Fundraising .comm">Fundraising .com</a> operates
           for helpdesk inquiries. This notice is available in both English and
           Hindi.
         </div>
-        <p style={{ marginTop: 0 }}>of Veda Sankalpa Seva Trust</p>
+        <p style={{ marginTop: 0 }}>of Globalbizz services pvt ltd</p>
       </footer>
     </div>
   );

@@ -114,9 +114,9 @@ const campaigns = [
 
 const faqs = [
   {
-    question: "What is Veda Sankalpa?",
+    question: "What is Fundraising?",
     answer:
-      "Veda Sankalpa is a humble initiative of a donations-based crowdfunding platform dedicated to preserving the roots of Sanatana Dharma by supporting various religious and spiritual institutions and their projects. We help communities raise funds for initiati",
+      "Fundraising is a humble initiative of a donations-based crowdfunding platform dedicated to preserving the roots of Sanatana Dharma by supporting various religious and spiritual institutions and their projects. We help communities raise funds for initiati",
   },
   {
     question: "How do I track my order?",
@@ -132,7 +132,7 @@ const monthlyCampaigns = [
   {
     image: "/slidesImages/campaign1.png",
     title:
-      "Annadan to Ayyappa Swamys is equal to doing thousands of Yajnas. Donate to feed 800+ Swamys daily till Makara Sankranti.",
+      " donate to a Krishna temple, you can explore options like online donations or direct contributions to ISKCON temples, or other temples dedicated to Lord Krishna. You can also consider specific donation campaigns like Annadanam (feeding the needy) or temple construction projects. .",
     totalDonors: 10,
   },
   {
@@ -160,25 +160,25 @@ const reviews = [
     rating: "5.0",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
     image: "/slidesImages/user1.png",
-    name: "sonu chahar",
+    name: "Developer User",
   },
   {
     rating: "5.0",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
     image: "/slidesImages/user1.png",
-    name: "sonu chahar",
+    name: "Developer User",
   },
   {
     rating: "5.0",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
     image: "/slidesImages/user1.png",
-    name: "sonu chahar",
+    name: "Developer User",
   },
   {
     rating: "5.0",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
     image: "/slidesImages/user1.png",
-    name: "sonu chahar",
+    name: "Developer User",
   },
 ];
 
